@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <%- include('partials/head.ejs') %>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit product</title>
+    <link rel="stylesheet" href="/style/editstyle.css">
+</head>
+<body>
+   
+<header>
+    <div class="image">
+        <img src="./img/4877eec5a536633b1e3f5e3a576146d0.png" alt="">
+    </div>
+    <div class="input">
+        <img src="./img/search.png" alt="">
+        <!-- <i>🔍</i> -->
+        <input type="text" id="search-input" placeholder="Search"/>
+        <!-- <button>Search</button> -->
+    </div>
+</header>
+
+<div class="home">
+    <a href="">Home > edit products</a>
+</div>
+
+
+<div class="product-list">
+    <div class="add-prod">
+       <a href="">Редактирование товара</a>
+   </div>
+   
+   <form action="/edit" method="post">
+       <input type="hidden" name="id" value="<%=data._id%>">
+        <div class="buttons">
+           <input type="text" class="form-control" id="" value="<%=data.name%>" name="name" style="font-size: 18px; font-weight: bolder;">
+           <input type="text" class="form-control" id="" value="<%=data.price%>" name="price" style="font-size: 18px; font-weight: bolder;">
+           <input type="text" class="form-control" id="" value="<%=data.sale%>" name="sale" style="font-size: 18px; font-weight: bolder;">
+           <input type="text" class="form-control" id="" value="<%=data.image%>" name="image" style="font-size: 18px; font-weight: bolder;">
+           <button class="btn" type="submit">Сохранить изменения</button>
+        </div>
+    </form>
+   
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,273 @@
+body{
+    width: 1349px;
+}
+
+header{
+    background-color: #FFFDFD;
+    height: 107px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+}
+.btn_new{
+    cursor: pointer;
+}
+.image{
+    width: 120px;
+    height: 31px;
+    left: 50px;
+    top: 38px;
+}
+
+.input{
+    width: 340px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.input img{
+    position: absolute;
+    padding: 10px;
+    width: 26px;
+    height: 24px;
+}
+
+#search-input{
+    width: inherit;
+    height: inherit;
+    border: none;
+    outline: none;
+    background-color: #F5F5F5;
+    border-radius: 15px;
+    padding-left: 50px;
+}
+
+.home{
+    background-color: #F3F5F6;
+    height: 70px;
+    display: flex;
+}
+.home a{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.78px;
+    padding-left: 50px;
+    margin-top: 20px;
+    color: #898A8C;
+    text-decoration: none;
+}
+.product-list{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+    justify-content: space-between;
+    padding: 50px;
+    width: 50%;
+}
+
+.add-prod{
+    /* padding: 50px; */
+    display: flex;
+    margin-left: 10px;
+    align-items: flex-start !important;
+    text-align: start !important;
+}
+.add-prod a{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38.73px;
+    /* margin: 20px; */
+    color: #000;
+    text-decoration: none;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.buttons input{
+    width: 614px;
+    /* height: 50px; */
+    border-radius: 15px;
+    border: 1px solid #000;
+    padding: 20px;
+}
+
+.buttons button{
+    background-color: #FE6769;
+    width: 614px;
+    padding: 15px;
+    /* height: 50px; */
+    border-radius: 15px;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.add{
+    float: right;  
+    right: 0px;
+}
+
+.add button{
+    width: 220px;
+    height: 51px;
+    border-radius: 15px;
+    background-color: #e14848;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    float: right;    
+}
+
+.add button>img{
+    width: 20px;
+    height: 20px;
+    color: #fff;
+}
+
+.add button>p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#fff;
+}
+
+.obzor{
+    display: flex;
+    /* width: 100%; */
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.obzor-item{
+    width: calc(25% - 30px);
+    align-items: center;
+    background-color: #EDEDED;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.skidka{
+    width: fit-content;
+    padding: 3px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #FE6769;
+    float: left;
+}
+
+.heart img{
+    width: 30px;
+    height: 30px;
+    float: right;
+    /* right: 0;
+    top: 0; */
+}
+
+.center-img{
+    margin: auto;
+    padding: 0;
+    align-items: center;
+}
+.center-img img{
+    object-position: center;
+    width: 100%;
+    height: 271px;
+    top: 15px;
+}
+
+.obzor-item p{
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+}
+
+.plus{
+    background-color: #FE6769;
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(150% , 100%);
+}
+
+.plus img{
+    width: 30px;
+    height: 30px;
+    padding: 15%;
+}
+
+.more{
+    float: right;
+    width: 20px;
+    height: 20px;
+}
+.more img{
+    width: 20px;
+    height: 20px;
+}
+
+.more-none{
+    display: block;
+    width: 180px;
+    float: inline-end;
+    right: 0;
+    transform: translateY(-6%);
+    margin: 0;
+    padding: 0;
+}
+
+.more-top{
+    background-color: #F8F8F8;
+    height: fit-content;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    padding: 5px;
+}
+.more-bottom{
+    background-color: #FD0000;
+    height: fit-content;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    padding: 5px;
+}
+
